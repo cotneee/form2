@@ -1,0 +1,130 @@
+@media (max-width: 1465px) {
+    header{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    body .container header .textdiv{
+        width: auto;
+
+    }
+    .headerdiv{
+        display: flex;
+        align-items: center;
+        flex-direction: column;   
+        text-align: center;     
+    }
+  }
+  
+  @media (max-width: 1160px) {
+    .fd1 , .fd3{
+        display: none;
+    }
+
+    body .container .main form .leftside, body .container .main form .leftside textarea{
+        width: 790px;
+    }
+
+    .rightside{
+        height: 280px;
+
+    }
+    
+    .imgdiv{
+        flex-wrap: wrap;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    #send,#uname,#mail,#subject,.rightside, .leftside, textarea {
+        width: 790px;
+    }
+  
+    textarea{
+        height: 200px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .fd1 , .fd3{
+        display: none;
+    }
+  }
+  
+  @media (max-width: 847px) {
+    .imgdiv{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        row-gap: 39px;
+        height: 579px;
+    }
+  
+    #send,#uname,#mail,#subject,.rightside, .leftside, textarea {
+        width: 694px;
+    }
+
+    body .container .main form .leftside, body .container .main form .leftside textarea {
+        width: 694px;
+    }
+
+
+}
+  
+ 
+
+ 
+
+  
+  @media (max-width: 713px) {
+    .imgdiv{
+        align-items: center;
+        flex-direction: column;
+        row-gap: 39px;
+        height: auto;
+    }
+  
+    h1, h4{
+        font-size: 30px;
+    }
+  
+    h3{
+        font-size: 13px;
+    }
+    body .container .main form .leftside, body .container .main form .leftside textarea {
+        width: 500px;
+    }
+
+  
+    #send,#uname,#mail,#subject,.rightside, .leftside, textarea {
+        width: 500px;
+    }
+  }
+
+  @media (max-width: 687px) {
+    body .container header .textdiv h1 {
+        color: #000;
+        font-family: Helvetica;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    body .container .imgs .headerdiv h1 {
+        color: #000;
+        font-family: Helvetica;
+        font-size: 41px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 548px;
+    }
+    
+    h2,h3{
+        display: none;
+    }
+  }

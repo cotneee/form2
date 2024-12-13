@@ -1,0 +1,175 @@
+body{
+    width: 100%;
+    padding-top: 57px;
+    overflow-x: hidden;
+    .container{
+        max-width: 1146px;
+        margin: 0 auto;
+        header{
+            margin-bottom: 57px;
+            p{
+                @include p-bold;
+            }
+            .textdiv{
+                width: 371px;
+                height: 112px;
+                h1{
+                    @include section-heading;
+                }
+            }
+        }
+        .main{
+            form{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 51px;
+                label{
+                    display: none;
+                }
+                ::placeholder{
+                    color: #99999A;
+                    font-family: Helvetica;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+                .leftside{
+                    textarea{
+                        resize: none;
+                        width: 756px;
+                        height: 298px;
+                        border: 2px solid rgba(212, 211, 211, 0.30);
+                        background: #F8F8F8;
+                        padding: 20px 0 0 20px;
+                    }
+                }
+                .rightside{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    input{
+                        width: 370px;
+                        height: 59px;
+                        border: 2px solid rgba(212, 211, 211, 0.30);
+                        background: #F8F8F8;
+                    }
+                    #send{
+                        background: $mycolor;
+                        color: #F8F8F8;
+                        font-size: larger;
+                    }
+                }
+            }
+        }
+        .secondary{
+            .maindiv{
+                display: flex;
+                justify-content: space-around;
+                .child{
+                    display:flex;
+                    flex-direction: column;
+                    align-items: center;
+                    div{
+                        width: 68px;
+                        height: 68px;
+                        background-color: $mycolor;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    color: #99999A;
+                    font-family: Helvetica;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+        .imgs{
+            margin-top: 74px;
+            margin-bottom: 39px;
+            .headerdiv{
+                display: flex;
+                flex-direction: column;
+                p{
+                    @include p-bold;
+                }
+                h1{
+                    @include section-heading;
+                    width: 548px;
+                }
+                margin-bottom: 53px;
+            }
+            .imgdiv{
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 39px;
+                img{
+                    width: 270px;
+                    height: 270px;
+                }
+            }
+
+        } 
+        
+    }
+    footer{
+        align-items: center;
+        height: 372px;
+        background-color: black;
+        display: flex;
+
+        justify-content: space-around;
+        .fd1{
+            h5{
+                @include h5-bold;
+            }
+            h3{
+                color: #99999A;
+                margin-top: 10px;
+                font-family: Helvetica;
+                font-size: 17px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                width: 300px;
+            }
+        }
+        .fd2{
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            h5{
+                @include h5-bold;
+            }
+            p{
+                @include prosta-p;
+            }
+        }
+        .fd3{
+            row-gap: 10px;
+            h5{
+                @include h5-prosta;
+                
+            }
+            .infodiv{
+                display: flex;
+                margin-top: 10px;
+                row-gap: 10px;
+                align-items: center;
+                justify-content: space-between;
+                h6{
+                    color: #99999A;
+                    font-family: Helvetica;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
+    }
+}

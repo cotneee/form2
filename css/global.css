@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding-top: 57px;
+  overflow-x: hidden;
+}
+body .container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+body .container header {
+  margin-bottom: 57px;
+}
+body .container header p {
+  color: #5863E3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .container header .textdiv {
+  width: 371px;
+  height: 112px;
+}
+body .container header .textdiv h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body .container .main form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 51px;
+}
+body .container .main form label {
+  display: none;
+}
+body .container .main form ::-moz-placeholder {
+  color: #99999A;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .container .main form ::placeholder {
+  color: #99999A;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .container .main form .leftside textarea {
+  resize: none;
+  width: 756px;
+  height: 298px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #F8F8F8;
+  padding: 20px 0 0 20px;
+}
+body .container .main form .rightside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .container .main form .rightside input {
+  width: 370px;
+  height: 59px;
+  border: 2px solid rgba(212, 211, 211, 0.3);
+  background: #F8F8F8;
+}
+body .container .main form .rightside #send {
+  background: #5968F4;
+  color: #F8F8F8;
+  font-size: larger;
+}
+body .container .secondary .maindiv {
+  display: flex;
+  justify-content: space-around;
+}
+body .container .secondary .maindiv .child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #99999A;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .container .secondary .maindiv .child div {
+  width: 68px;
+  height: 68px;
+  background-color: #5968F4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .container .imgs {
+  margin-top: 74px;
+  margin-bottom: 39px;
+}
+body .container .imgs .headerdiv {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 53px;
+}
+body .container .imgs .headerdiv p {
+  color: #5863E3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body .container .imgs .headerdiv h1 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 548px;
+}
+body .container .imgs .imgdiv {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 39px;
+}
+body .container .imgs .imgdiv img {
+  width: 270px;
+  height: 270px;
+}
+body footer {
+  align-items: center;
+  height: 372px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+body footer .fd1 h5 {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body footer .fd1 h3 {
+  color: #99999A;
+  margin-top: 10px;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 300px;
+}
+body footer .fd2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+body footer .fd2 h5 {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+body footer .fd2 p {
+  color: #5863E3;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body footer .fd3 {
+  row-gap: 10px;
+}
+body footer .fd3 h5 {
+  color: #FFF;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body footer .fd3 .infodiv {
+  display: flex;
+  margin-top: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+body footer .fd3 .infodiv h6 {
+  color: #99999A;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=global.css.map */

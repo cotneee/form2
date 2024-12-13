@@ -1,0 +1,43 @@
+@mixin prosta-p {
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@mixin p-bold{
+    color: #5863E3;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin section-heading{
+    color: #000;
+    font-family: Helvetica;
+    font-size: 49px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+@mixin h5-bold{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+@mixin h5-prosta{
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
